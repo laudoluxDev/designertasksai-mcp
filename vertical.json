@@ -1,0 +1,11 @@
+{
+  "product_id": "designer",
+  "display_name": "DesignerTasksAI",
+  "tool_prefix": "designertasksai",
+  "api_base_url": "https://api.lawtasksai.com",
+  "website_url": "https://designertasksai.com",
+  "billing_url": "https://designertasksai.com/buy-credits.html",
+  "support_email": "support@designertasksai.com",
+  "privacy_summary": "DesignerTasksAI servers handle authentication, credits, catalog/search metadata, and licensed skill delivery. DesignerTasksAI does not process the user's task content. The user's chosen AI assistant or LLM performs the task work according to that provider's privacy terms.",
+  "first_prompt": "Check my DesignerTasksAI credit balance."
+}
