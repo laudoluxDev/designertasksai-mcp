@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "product_id": "designer",
+  "product_name": "DesignerTasksAI",
+  "official_domain": "designertasksai.com",
+  "official_github_repo": "https://github.com/laudoluxDev/designertasksai-mcp",
+  "official_package": "@tasksai/install",
+  "installer": {
+    "preferred": "npx",
+    "npx": {
+      "command": "npx",
+      "args": [
+        "@tasksai/install",
+        "designer",
+        "--source",
+        "https://github.com/laudoluxDev/designertasksai-mcp"
+      ],
+      "requires": [
+        "node",
+        "npm",
+        "npx"
+      ]
+    }
+  },
+  "supported_clients": [
+    "claude_desktop",
+    "cursor",
+    "windsurf",
+    "codex"
+  ],
+  "auth": {
+    "method": "browser_device_flow",
+    "connect_url": "https://designertasksai.com/connect",
+    "fallback": "license_key"
+  },
+  "security": {
+    "require_domain_verification": true,
+    "require_repo_verification": true,
+    "disallow_arbitrary_manifest_commands": true,
+    "native_installer_user_approval_required": true
+  },
+  "health_check": {
+    "command": "npx",
+    "args": [
+      "@tasksai/install",
+      "designer",
+      "doctor"
+    ]
+  },
+  "uninstall": {
+    "command": "npx",
+    "args": [
+      "@tasksai/install",
+      "designer",
+      "uninstall"
+    ]
+  },
+  "support": {
+    "url": "https://designertasksai.com/support",
+    "email": "support@designertasksai.com"
+  }
+}
