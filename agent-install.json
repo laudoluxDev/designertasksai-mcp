@@ -3,7 +3,7 @@
   "product_id": "designer",
   "product_name": "DesignerTasksAI",
   "official_domain": "designertasksai.com",
-  "official_github_repo": "https://github.com/laudoluxDev/designertasksai-mcp",
+  "official_github_repo": "https://github.com/TasksAI-Official/designertasksai-mcp",
   "official_package": "@tasksai/install",
   "installer": {
     "preferred": "npx",
@@ -13,7 +13,7 @@
         "@tasksai/install",
         "designer",
         "--source",
-        "https://github.com/laudoluxDev/designertasksai-mcp"
+        "https://github.com/TasksAI-Official/designertasksai-mcp"
       ],
       "requires": [
         "node",
